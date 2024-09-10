@@ -9,7 +9,7 @@ graph TD;
     A-->B;
     A-->C;
     B-->D;
-    
+ ```   
 
 ```mermaid
 sequenceDiagram
@@ -28,3 +28,4 @@ sequenceDiagram
 
     FTP-->>Users: Sync complete, files available via assets.main-domain.com
     EC2-->>App: Process files pulled from S3
+```
